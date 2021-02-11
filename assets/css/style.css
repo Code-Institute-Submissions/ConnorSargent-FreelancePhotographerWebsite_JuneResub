@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+H* {
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+
+
+/*  Navbar  */
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.dropdown-item {
+    margin: 0;
+}
+
+.navbar .navbar-brand {
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 30px;
+}
+
+.navbar .navbar-nav a {
+    font-weight: 400;
+    margin-right: 50px;
+}
+
+/*  footer  */
+footer {
+    background-color:  rgba(0, 0, 0, .25);
+}
+
+
+ footer a {
+    color: White;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+footer a:hover {
+    color: greenyellow;
+}
+
+/* Jumbotron  */
