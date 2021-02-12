@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: darkgrey;
     color: white;
     font-family: "Montserrat", sans-serif;
 }
@@ -30,28 +30,64 @@ H* {
 
 .navbar .navbar-brand {
     font-family: "Kaushan Script", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 500;
 }
 
 .navbar .navbar-nav a {
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     margin-right: 50px;
+    letter-spacing: 1.5px;
 }
+
 
 /*  footer  */
 footer {
     background-color:  rgba(0, 0, 0, .25);
+    padding-top: 15px;
 }
-
 
  footer a {
-    color: White;
-    font-size: 1.5em;
+    color: Black;
+    font-size: 25px;
     margin-right: 10px;
-}
+    height: 50px;
+    width: 50px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+ }
 
 footer a:hover {
-    color: greenyellow;
+    color: white;
+    background-color: black;
 }
 
-/* Jumbotron  */
+footer .copyright-text {
+    margin-top: 30px;
+}
+
+
+/* Jumbotron/callout  */
+ 
+.jumbotron-background {
+    height: 80vh;
+
+    background: url('../images/pexels-mylo-kaye-6585361.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ 
+    padding-top: 30px;
+
+    border-top: 0;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
