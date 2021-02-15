@@ -1,12 +1,12 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #1f1f1f;
+    color: #fafafa;
     font-family: "Montserrat", sans-serif;
 }
 
 H* {
     font-family: "Raleway", sans-serif;
-    color: white;
+    color: #fafafa;
 }
 
 .opaque-overlay {
@@ -16,6 +16,16 @@ H* {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.blue-btn {
+    background-color: #05c1fb;
+    color: #1f1f1f;
+}
+
+.blue-btn:hover {
+    background-color: #047ea3;
+    color: #fafafa
 }
 
 /*  Navbar  */
@@ -50,27 +60,27 @@ H* {
 
 /*  footer  */
 footer {
-    background-color:  #404040;
+    background-color: #43474c;
     padding-top: 15px;
 }
 
- footer a {
+footer a {
     color: Black;
     font-size: 25px;
     margin-right: 10px;
     height: 50px;
     width: 50px;
     padding: 7px;
-    background-color: white;
+    background-color: #fafafa;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
- }
+}
 
 footer a:hover {
-    color: white;
-    background-color: black;
+    color: #fafafa;
+    background-color: #1f1f1f;
 }
 
 footer .copyright-text {
@@ -79,7 +89,7 @@ footer .copyright-text {
 
 
 /* Jumbotron/callout  */
- 
+
 .jumbotron-background {
     height: 80vh;
 
@@ -88,7 +98,7 @@ footer .copyright-text {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
- 
+
     border-top: 0;
 }
 
@@ -106,4 +116,18 @@ footer .copyright-text {
     font-size: 18px;
 
     background-color: rgba(0, 0, 0, .5);
+}
+
+/*  Info Cards  */
+
+.card {
+    background-color: #43474c;
+    border-radius: 0;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
 }
