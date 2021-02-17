@@ -36,6 +36,27 @@ hr {
 
     border-radius: 15px;
 }
+
+ .social-links a {
+    color: Black;
+    font-size: 25px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    padding: 7px;
+    background-color: #fafafa;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: .2s background-color;
+}
+
+.social-links a :hover {
+    color: #fafafa;
+    background-color: #05c1fb;
+}
 /*  Navbar  */
 
 .navbar {
@@ -73,30 +94,20 @@ footer {
     margin-top: 15px;
 }
 
-footer a {
-    color: Black;
-    font-size: 25px;
-    margin-right: 10px;
-    height: 50px;
-    width: 50px;
-    padding: 7px;
-    background-color: #fafafa;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-}
-
-footer a:hover {
-    color: #fafafa;
-    background-color: #05c1fb;
-}
 /*  jumbotron  */
 
-.jumbotron-container {
+.index-jumbotron-background{
     height: 100vh;
-
     background: url('../images/index/Jumbotron-Background.jpg') no-repeat bottom right fixed;
+}
+
+.latest-jumbotron-background {
+    height: 70vh;
+    background: url('../images/latest/Jumbotron-background.jpg') no-repeat bottom right fixed;
+    background-position: 0px -150px;
+}
+
+.jumbotron-container {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -190,5 +201,8 @@ footer a:hover {
     }
     .jumbotron h1 {
         font-size: 30px;
+    }
+    .card img {
+        height: 300px;
     }
   }
