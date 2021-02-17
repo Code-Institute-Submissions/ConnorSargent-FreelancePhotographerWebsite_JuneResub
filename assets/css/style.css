@@ -28,14 +28,6 @@ H* {
     color: #fafafa
 }
 
-hr {
-    background-color: #43474c;
-    height: 6px;
-    width: 90%;
-    margin-top: 30px;
-
-    border-radius: 15px;
-}
 /*  Navbar  */
 
 .navbar {
@@ -62,7 +54,7 @@ hr {
 .navbar .navbar-nav a {
     font-size: 20px;
     font-weight: 500;
-    margin-right: 30px;
+    margin-right: 50px;
     letter-spacing: 1.5px;
 }
 
@@ -70,7 +62,6 @@ hr {
 footer {
     background-color: #43474c;
     padding-top: 15px;
-    margin-top: 15px;
 }
 
 footer a {
@@ -89,78 +80,51 @@ footer a {
 
 footer a:hover {
     color: #fafafa;
-    background-color: #05c1fb;
+    background-color: #1f1f1f;
 }
-/*  jumbotron  */
 
-.jumbotron-container {
-    height: 100vh;
+footer .copyright-text {
+    margin-top: 30px;
+}
 
-    background: url('../images/index/Jumbotron-Background.jpg') no-repeat bottom right fixed;
+
+/* Jumbotron/callout  */
+
+.jumbotron-background {
+    height: 80vh;
+
+    background: url('../images/pexels-mylo-kaye-6585361.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+    border-top: 0;
 }
 
 .jumbotron {
     background-color: transparent;
-}
-
-.jumbotron h1 {
-    font-size: 40px;
-    color: #fafafa;
-    font-weight: bold;
-}
-
-.jumbotron hr {
-    height: 2px;
-    width: 100%;
-    background-color: #fafafa;
-
+    margin-left: 50px;
+    margin-top: 100px;
 }
 
 .jumbotron .lead {
     width: 60%;
-    margin-top: 30px;
+    height: auto;
     padding: 15px;
-    border-radius: 15px;
-    background-color: rgba(0, 0, 0, .6);
-}
 
-.scroll-icon-container {
-    margin-top: 100px;
-}
+    font-size: 18px;
 
-.scroll-icon {
-    font-size: 50px;
-    color: rgba(178, 178, 178, 0.8)
-}
-
-.scroll-icon :hover {
-    color: #05c1fb; 
+    background-color: rgba(0, 0, 0, .5);
 }
 
 /*  Info Cards  */
 
 .card {
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: #43474c;
+    border-radius: 0;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: auto;
-
-    padding: 15px;
-
-    background-color: #43474c;
-    border-radius: 15px;
- 
 }
 
 .card img {
@@ -168,27 +132,4 @@ footer a:hover {
     height: 400px;
     object-fit: cover;
     object-position: center;
-
-    border-radius: 15px;
 }
-
-
-
-
-
-
-
-/* media queries */
-
-@media screen and (max-width: 600px) {
-    .jumbotron .lead {
-        width: 100%;
-        font-size: 16px;
-    }
-    .jumbotron {
-        margin-top: 100px;
-    }
-    .jumbotron h1 {
-        font-size: 30px;
-    }
-  }
