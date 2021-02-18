@@ -1,21 +1,23 @@
+/*  colors  */
 body {
-    background-color: #1f1f1f;
+    background-color:  #16161a;
     color: #fafafa;
-    font-family: "Montserrat", sans-serif;
 }
 
 H* {
-    font-family: "Raleway", sans-serif;
     color: #fafafa;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+.navbar {
+    background-color: rgba(0, 0, 0, .75);
+}
+
+footer {
+    background-color: #242629;
+}
+
+hr {
+    background-color: #242629;
 }
 
 .blue-btn {
@@ -28,8 +30,64 @@ H* {
     color: #fafafa
 }
 
+.social-links a {
+    color: Black;
+    background-color: #fafafa;
+}
+
+.social-links a:hover {
+    color: #fafafa;
+    background-color: #05c1fb;
+}
+
+.jumbotron h1 {
+    color: #fafafa;
+}
+
+.jumbotron hr {
+    background-color: #fafafa;
+}
+
+.jumbotron .lead {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.scroll-icon {
+    color: rgba(178, 178, 178, 0.8)
+}
+
+.scroll-icon :hover {
+    color: #05c1fb; 
+}
+
+.card {
+    background-color: #242629;
+}
+
+.card p {
+    color: #94a1b2;
+}
+
+/*  General Rules  */
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+H* {
+    font-family: "Raleway", sans-serif;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 hr {
-    background-color: #43474c;
     height: 6px;
     width: 90%;
     margin-top: 30px;
@@ -38,31 +96,27 @@ hr {
 }
 
  .social-links a {
-    color: Black;
     font-size: 25px;
     margin-right: 10px;
     height: 50px;
     width: 50px;
     padding: 7px;
-    background-color: #fafafa;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
     vertical-align: middle;
     text-decoration: none;
-    transition: .2s background-color;
 }
 
-.social-links a :hover {
-    color: #fafafa;
-    background-color: #05c1fb;
+.socials-text {
+    font-size: 20px;
 }
+
 /*  Navbar  */
 
 .navbar {
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .75);
     border: 0;
 }
 
@@ -88,8 +142,8 @@ hr {
 }
 
 /*  footer  */
+
 footer {
-    background-color: #43474c;
     padding-top: 15px;
     margin-top: 15px;
 }
@@ -113,28 +167,22 @@ footer {
     -o-background-size: cover;
     background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     position: relative;
 }
 
 .jumbotron {
+    margin-top: 100px;
     background-color: transparent;
 }
 
 .jumbotron h1 {
     font-size: 40px;
-    color: #fafafa;
     font-weight: bold;
 }
 
 .jumbotron hr {
     height: 2px;
     width: 100%;
-    background-color: #fafafa;
-
 }
 
 .jumbotron .lead {
@@ -142,7 +190,6 @@ footer {
     margin-top: 30px;
     padding: 15px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, .6);
 }
 
 .scroll-icon-container {
@@ -151,11 +198,6 @@ footer {
 
 .scroll-icon {
     font-size: 50px;
-    color: rgba(178, 178, 178, 0.8)
-}
-
-.scroll-icon :hover {
-    color: #05c1fb; 
 }
 
 /*  Info Cards  */
@@ -169,9 +211,7 @@ footer {
 
     padding: 15px;
 
-    background-color: #43474c;
-    border-radius: 15px;
- 
+    border-radius: 15px;    
 }
 
 .card img {
@@ -182,11 +222,6 @@ footer {
 
     border-radius: 15px;
 }
-
-
-
-
-
 
 
 /* media queries */
