@@ -265,7 +265,7 @@ footer {
     display:block;
     background-color:  rgba(0, 0, 0, .5);
     border-radius: 9px;
-    padding: 5px;
+    padding: 9px;
 }
 
 
@@ -305,5 +305,8 @@ footer {
     .latest-card-large {
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .latest-card-large .card-img-overlay, .latest-card-large .card-img {
+        height: 600px;
     }
   }
