@@ -78,6 +78,14 @@ hr {
     background-color: #fafafa
 }
 
+.about-container hr {
+    background-color: #fafafa
+}
+
+.enquire-container hr {
+    background-color: #fafafa;
+}
+
 /*  General Rules  */
 
 body {
@@ -310,6 +318,47 @@ footer {
     border-radius: 9px;
 }
 
+/*  About  */
+
+.about-container {
+    padding-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+}
+
+.about-container hr {
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 2px;
+}
+
+.about-container img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+/*  Enquire  */
+
+.enquire-container {
+    padding-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: auto;
+}
+
+.enquire-container hr {
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 2px;
+}
+
 
 
 
@@ -357,6 +406,9 @@ footer {
 
     .gallery-container h2 {
         font-size: 30px;
+    }
+    .about-container h1 {
+        font-size: 30px; 
     }
 }
 
