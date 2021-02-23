@@ -73,36 +73,71 @@
         <h1>Enquire</h1>
         <hr>
 
-        <form method="post" action="https://formdump.codeinstitute.net/">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required />
+        <form class="was-validated" novalidate method="post" action="https://formdump.codeinstitute.net/">
 
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email" required />
+            <div class="form-row">
+                <div class="col-9">
+                    <label for="name">Name</label>
+                    <input class="form-control" type="text" id="name" name="name" required />
+                    <div class="valid-feedback">
+                        Awesome Name!
+                    </div>
+                </div>
+            </div>
 
-            <label for="tel">Phone</label>
-            <input id="tel" type="tel" name="tel" required />
+            <div class="form-row">
+                <div class="col-9">
+                    <label for="email">Email</label>
+                    <input class="form-control" id="email" type="email" name="email" required />
+                    <div class="valid-feedback">
+                        Great!
+                    </div>
+                </div>
+            </div>
 
-            <label for="shoot">Shoot</label>
-            <select id="shoot" name="shoot">
-                <option value="urban">Urban</option>
-                <option value="studio">Studio</option>
-                <option value="Event">Event</option>
-                <option value="multiple">Multiple</option>
-                <option value="not-sure">Not Sure</option>
-            </select>
+            <div class="form-row">
+                <div class="col-9">
+                    <label for="tel">Phone</label>
+                    <input class="form-control" id="tel" type="tel" name="tel" required />
+                    <div class="valid-feedback">
+                        Dont worry i wont share
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-6">
+                    <label for="shoot">Shoot</label>
+                    <select class="form-control" id="shoot" name="shoot">
+                        <option value="urban">Urban</option>
+                        <option value="studio">Studio</option>
+                        <option value="Event">Event</option>
+                        <option value="multiple">Multiple</option>
+                        <option value="not-sure">Not Sure</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-12">
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea class="form-control" id="message" name="message" value="message" cols="50" rows="10"
+                        placeholder="Please provide any questions or details related to the shoot. eg: The event, Locations, Additional props/equipment." required></textarea>
+                    <br>
+                    <div class="invalid-feedback">
+                     Please provide a message.
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col">
+                    <input class="btn btn-lg blue-btn" type="submit">
+                </div>
+            </div>
         </form>
-
-        <label for="message">Message</label>
-        <br>
-        <textarea id="message" name="message" value="message" cols="50" rows="10" placeholder="........."></textarea>
-        <br>
-        <input type="submit">
-        </form>
-
     </div>
-
-
 
 
     <footer class="container-fluid">
