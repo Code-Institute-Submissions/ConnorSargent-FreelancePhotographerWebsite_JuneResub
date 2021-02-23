@@ -1,6 +1,7 @@
 /*  colors  */
 body {
-    background-color: #16161a;
+    background-color: #2b4162;
+    background-image: linear-gradient(45deg, #2b4162 0%, #12100e 74%);
     color: #fafafa;
 }
 
@@ -18,11 +19,11 @@ h6 {
 }
 
 footer {
-    background-color: #242629;
+    background-color: #12100e;
 }
 
 hr {
-    background-color: #242629;
+    background-color: #2b4162;
 }
 
 .blue-btn {
@@ -62,7 +63,7 @@ hr {
 }
 
 .card {
-    background-color: #242629;
+    background-color:rgba(0,0,0,0.25);
 }
 
 .card p {
@@ -128,7 +129,7 @@ hr {
 
 
 .blue-btn {
-    border-radius: 5px;
+    border-radius: 9px;
 }
 
 /*  Navbar  */
@@ -243,7 +244,11 @@ footer {
     object-fit: cover;
     object-position: center;
 
-    border-radius: 9px;
+    border-radius: 5px;
+}
+
+.latest-card-small, .latest-card-large {
+    background-color: transparent;
 }
 
 .latest-card .card-img-overlay,
