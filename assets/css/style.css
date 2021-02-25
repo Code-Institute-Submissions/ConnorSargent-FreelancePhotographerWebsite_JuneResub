@@ -1,7 +1,7 @@
 /*  colors  */
 body {
     background-color: #2b4162;
-    background-image: linear-gradient(45deg, #2b4162 0%, #12100e 74%);
+    background-image: linear-gradient(45deg, #2b4162 0%, #12100eda 74%);
     color: #fafafa;
 }
 
@@ -15,11 +15,12 @@ h6 {
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, .75);
+    background-image: linear-gradient(0deg,rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 65%);
 }
 
+
 footer {
-    background-color: #12100e;
+    background-color: #12100eda;
 }
 
 hr {
@@ -33,17 +34,20 @@ hr {
 
 .blue-btn:hover {
     background-color: #047ea3;
-    color: #fafafa
+    color: #fafafa;
+    box-shadow: 1px 1px 7px white;
 }
 
 .social-links a {
-    color: Black;
+    color: #1f1f1f;
     background-color: #fafafa;
 }
 
 .social-links a:hover {
     color: #fafafa;
     background-color: #05c1fb;
+    box-shadow: 0px 0px 7px white;
+}
 }
 
 .jumbotron h1 {
@@ -85,6 +89,11 @@ hr {
 .enquire-container hr {
     background-color: #fafafa;
 }
+
+.enquire-container i {
+    color: #05c1fb;
+}
+
 
 /*  General Rules  */
 
@@ -334,8 +343,8 @@ footer {
 }
 
 .about-container img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
 
     object-fit: cover;
@@ -368,7 +377,9 @@ border-radius: 9px;
     margin-top: 20px;
 }
 
-
+.enquire-container i {
+    font-size: 20px;
+}
 
 
 /* media queries */
@@ -417,6 +428,9 @@ border-radius: 9px;
     }
     .about-container h1 {
         font-size: 30px; 
+    }
+    .enquire-container h1 {
+        font-size: 30px;
     }
 }
 
