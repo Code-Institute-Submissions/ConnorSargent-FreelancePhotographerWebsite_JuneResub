@@ -1,6 +1,6 @@
 <h1 align="center">Freelance Photographers Website</h1>
 
-[View the live project here.](#)
+[View the live project here.](https://connorsargent.github.io/FreelancePhotographerWebsite/index.html)
 
 The primary goal of this project is to provide a clean and professional website for a freelance photographer, which showcases the photographers work in a catagorised gallery and a blog with recent work and events, the website will also provide a clear and freindly contact form for anyone interseted in a photoshoot and links to various social media platforms to bring more attention to the photographer.
 
@@ -45,7 +45,6 @@ The primary goal of this project is to provide a clean and professional website 
 -   Responsive on all device sizes
 
 -   Interactive elements
-
 
 ### Languages Used
 
@@ -147,25 +146,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ConnorSargent/FreelancePhotographerWebsite)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://connorsargent.github.io/FreelancePhotographerWebsite/index.html) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ConnorSargent/FreelancePhotographerWebsite)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ConnorSargent/FreelancePhotographerWebsite)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -207,43 +206,56 @@ All Images were taken from [Pexels](https://Pexels.com)
 creators and links to images:
 
 #### Index Jumbotron
-Mylo Kaye - https://www.pexels.com/photo/aerial-view-of-city-buildings-6585361/
+- Mylo Kaye - https://www.pexels.com/photo/aerial-view-of-city-buildings-6585361/
 
 #### Latest Jumbotron
-Andrew Neel - https://www.pexels.com/photo/top-view-photo-of-laptop-near-camera-3178938/
+- Andrew Neel - https://www.pexels.com/photo/top-view-photo-of-laptop-near-camera-3178938/
 
 #### Index Cards
-Josh Hild - https://www.pexels.com/photo/white-concrete-buildin-3396883/
-Alexander Drummer - https://www.pexels.com/photo/photo-studio-with-white-wooden-framed-wall-mirror-134469/
-Wolfgang - https://www.pexels.com/photo/photo-of-people-watching-a-concert-2747449/
+- Josh Hild - https://www.pexels.com/photo/white-concrete-buildin-3396883/
+
+- Alexander Drummer - https://www.pexels.com/photo/photo-studio-with-white-wooden-framed-wall-mirror-134469/
+
+- Wolfgang - https://www.pexels.com/photo/photo-of-people-watching-a-concert-2747449/
 
 #### Latest Cards
-Elijah O'Donnell - https://www.pexels.com/photo/androgynous-woman-leaning-foot-against-grey-wall-5098976/
-Wendy Wei - https://www.pexels.com/photo/musical-band-playing-music-on-stage-with-purple-and-white-lights-1864642/
-Jayberrytech - https://www.pexels.com/photo/man-wearing-black-pants-3304802/
-Yasmine qasem - https://www.pexels.com/photo/woman-standing-in-front-of-white-wall-2034435/
-Aldrich - https://www.pexels.com/photo/woman-in-red-and-white-floral-dress-standing-near-store-5464697/
+- Elijah O'Donnell - https://www.pexels.com/photo/androgynous-woman-leaning-foot-against-grey-wall-5098976/
+
+- Wendy Wei - https://www.pexels.com/photo/musical-band-playing-music-on-stage-with-purple-and-white-lights-1864642/
+
+- Jayberrytech - https://www.pexels.com/photo/man-wearing-black-pants-3304802/
+
+- Yasmine qasem - https://www.pexels.com/photo/woman-standing-in-front-of-white-wall-2034435/
+
+- Aldrich - https://www.pexels.com/photo/woman-in-red-and-white-floral-dress-standing-near-store-5464697/
 
 #### Urban Gallery
-Cottonbro - https://www.pexels.com/photo/man-in-white-long-sleeve-shirt-sitting-beside-woman-in-green-sweater-5037620/
-            https://www.pexels.com/photo/man-in-white-crew-neck-t-shirt-and-blue-denim-jeans-sitting-on-red-metal-bench-5037571/
-            https://www.pexels.com/photo/person-in-blue-denim-jeans-and-black-and-white-nike-sneakers-5037664/
-RODNAE Productions - https://www.pexels.com/photo/fashion-man-people-woman-5898475/
-                     https://www.pexels.com/photo/woman-in-white-jacket-and-black-pants-sitting-on-concrete-floor-5898493/
+- Cottonbro - https://www.pexels.com/photo/man-in-white-long-sleeve-shirt-sitting-beside-woman-in-green-sweater-5037620/
+              https://www.pexels.com/photo/man-in-white-crew-neck-t-shirt-and-blue-denim-jeans-sitting-on-red-metal-bench-5037571/
+              https://www.pexels.com/photo/person-in-blue-denim-jeans-and-black-and-white-nike-sneakers-5037664/
+
+- RODNAE Productions - https://www.pexels.com/photo/fashion-man-people-woman-5898475/
+                       https://www.pexels.com/photo/woman-in-white-jacket-and-black-pants-sitting-on-concrete-floor-5898493/
 
 #### Studio Gallery
-Andrea Piacquadio - https://www.pexels.com/photo/woman-in-knitted-shirt-is-screaming-3765144/
-                    https://www.pexels.com/photo/pensive-man-in-brown-coat-holding-his-chin-3785078/
-mikoto.raw - https://www.pexels.com/photo/photo-of-woman-holding-her-against-red-background-3328103/
-Anna Shvets - https://www.pexels.com/photo/young-boy-in-jacket-holding-white-flower-pot-3771640/
-              https://www.pexels.com/photo/man-with-long-hair-standing-in-studio-during-photo-session-4971015/
+- Andrea Piacquadio - https://www.pexels.com/photo/woman-in-knitted-shirt-is-screaming-3765144/
+                      https://www.pexels.com/photo/pensive-man-in-brown-coat-holding-his-chin-3785078/
+
+- mikoto.raw - https://www.pexels.com/photo/photo-of-woman-holding-her-against-red-background-3328103/
+
+- Anna Shvets - https://www.pexels.com/photo/young-boy-in-jacket-holding-white-flower-pot-3771640/
+                https://www.pexels.com/photo/man-with-long-hair-standing-in-studio-during-photo-session-4971015/
 
 #### Event Gallery
-Giorgio Paradisi - https://www.pexels.com/photo/people-partying-close-up-photography-2705089/
-Marc Schulte - https://www.pexels.com/photo/silhouette-photo-of-people-beside-monitor-2952834/
-Thibault Trillet - https://www.pexels.com/photo/singer-singing-on-stage-beside-guitar-player-and-bass-player-167636/
-Zachary DeBottis - https://www.pexels.com/photo/man-standing-while-singing-2067677/
-Mwabonje - https://www.pexels.com/photo/woman-singing-on-stage-1460037/
+- Giorgio Paradisi - https://www.pexels.com/photo/people-partying-close-up-photography-2705089/
+
+- Marc Schulte - https://www.pexels.com/photo/silhouette-photo-of-people-beside-monitor-2952834/
+
+- Thibault Trillet - https://www.pexels.com/photo/singer-singing-on-stage-beside-guitar-player-and-bass-player-167636/
+
+- Zachary DeBottis - https://www.pexels.com/photo/man-standing-while-singing-2067677/
+
+- Mwabonje - https://www.pexels.com/photo/woman-singing-on-stage-1460037/
 
 
 
