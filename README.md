@@ -29,14 +29,15 @@ The primary goal of this project is to provide a clean and professional website 
         -   The two main colours used are Code Insititue red, and white.
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Spartan font is the font used for headings throughout the website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention.
 
 *   ### Wireframes
 
-    -   Desktop/Tablet Wireframes - [View](assets/wireframes/Desktop Wireframes.pdf)
+    -   Desktop/Tablet Wireframes - [View](https://github.com/ConnorSargent/FreelancePhotographerWebsite/blob/master/assets/wireframes/Desktop%20Wireframes.pdf)
 
-    -   Mobile Wireframe - [View](assets/wireframes/Mobile Wireframes.pdf)
+    -   Mobile Wireframe - [View](https://github.com/ConnorSargent/FreelancePhotographerWebsite/blob/master/assets/wireframes/Mobile%20Wireframes.pdf)
 
 
 ## Features
