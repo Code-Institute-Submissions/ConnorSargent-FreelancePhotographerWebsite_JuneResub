@@ -201,7 +201,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
-All Images were taken from [Pexels](https://Pexels.com) 
+All Images are taken from [Pexels](https://Pexels.com) 
 
 creators and links to images:
 
