@@ -18,7 +18,6 @@ h6 {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.75) 65%);
 }
 
-
 footer {
     background-color: #12100eda;
 }
@@ -68,11 +67,19 @@ hr {
 }
 
 .card p {
-    color: #94a1b2;
+    color: #b8c8dd;
+}
+
+.card p a {
+    color: #05c1fb;
 }
 
 .latest-card p {
     color: #fafafa;
+}
+
+.card-text-bg summary:hover {
+    color: #05c1fb;
 }
 
 .gallery-container hr {
@@ -81,6 +88,10 @@ hr {
 
 .about-container hr {
     background-color: #fafafa
+}
+
+.about-container p a {
+    color: #05c1fb;
 }
 
 .enquire-container hr {
@@ -167,7 +178,7 @@ hr {
 
 .navbar .navbar-brand {
     font-family: "Spartan", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 1.5px;
 }
@@ -295,11 +306,6 @@ footer {
     padding: 9px;
 }
 
-
-.card-text-bg summary:hover {
-    color: #05c1fb;
-}
-
 /*  Gallery  */
 
 .gallery-container {
@@ -346,9 +352,10 @@ footer {
 }
 
 .about-container img {
-    height: 150px;
-    width: 150px;
+    height: 175px;
+    width: 175px;
     border-radius: 50%;
+    text-align: center;
 
     object-fit: cover;
     object-position: center;
@@ -382,6 +389,14 @@ footer {
 
 .enquire-container i {
     font-size: 20px;
+}
+
+.enquire-container .text-input {
+    width: 30%;
+}
+
+.enquire-container select {
+    width: 20%;
 }
 
 
@@ -449,9 +464,27 @@ footer {
 
 /* media queries */
 
+@media screen and (max-width: 768px) {
+    .latest-card-small {
+        margin-top: 30px;
+    }
+
+    .gallery-container img {
+        height: 300px;
+    }
+
+    .enquire-container .text-input {
+        width: 50%;
+    }
+
+    .enquire-container select {
+        width: 40%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .navbar .navbar-brand {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .jumbotron .lead {
@@ -500,19 +533,12 @@ footer {
         font-size: 30px;
     }
 
-    .hvr-grow-img:hover,
-    .hvr-grow-img:focus,
-    .hvr-grow-img:active {
-       
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .latest-card-small {
-        margin-top: 30px;
+    .enquire-container .text-input {
+        width: 90%;
     }
 
-    .gallery-container img {
-        height: 300px;
+    .enquire-container select {
+        width: 80%;
     }
+
 }

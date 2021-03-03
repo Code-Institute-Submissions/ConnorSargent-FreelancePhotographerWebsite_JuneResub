@@ -39,6 +39,14 @@ The primary goal of this project is to provide a clean and professional website 
 
     -   Mobile Wireframe - [View](https://github.com/ConnorSargent/FreelancePhotographerWebsite/blob/master/assets/wireframes/Mobile%20Wireframes.pdf)
 
+ - * Changes to desktop wireframes:
+ - * Navbar aligned to the right and navbar contact button is now a nav link, changed for aesthetic purposes.
+ - * Footer logo removed as navbar is now fixed and social links and copyright text on oposite sides of footer, changed for aestetic purposes. 
+ - * Event page cards layout changed so smaller events have smaller cards whilst bigger more important events have a full page width card.
+
+- Changes to mobile wireframes:
+- * Nav bar is now located and fixed to the top of the page with a hamburger menu, changed for aestetic purposes. 
+- * Gallery images are now shown as one img per row, as two images were too small for smaller devices.
 
 ## Features
 
@@ -68,13 +76,13 @@ The primary goal of this project is to provide a clean and professional website 
 7. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 8. [Figma:](https://figma.com/)
-    - Balsamiq was used to create the wireframes during the design process.
+    - Figma was used to create the wireframes during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -140,6 +148,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
+Index jumbotron scroll icon - When hovering over the edges of the icon the color changes to a default dark blue rather than the set hover color.
+
 ## Deployment
 
 ### GitHub Pages
@@ -201,63 +211,65 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
-All Images are taken from [Pexels](https://Pexels.com) 
+- All Images are taken from [Pexels](https://Pexels.com) 
 
-creators and links to images:
+- Creators and links to images:
 
 #### Index Jumbotron
-- Mylo Kaye - https://www.pexels.com/photo/aerial-view-of-city-buildings-6585361/
+- Mylo Kaye - [Image](https://www.pexels.com/photo/aerial-view-of-city-buildings-6585361/)
 
 #### Latest Jumbotron
-- Andrew Neel - https://www.pexels.com/photo/top-view-photo-of-laptop-near-camera-3178938/
+- Andrew Neel - [Image](https://www.pexels.com/photo/top-view-photo-of-laptop-near-camera-3178938/)
 
 #### Index Cards
-- Josh Hild - https://www.pexels.com/photo/white-concrete-buildin-3396883/
+- Josh Hild - [Image](https://www.pexels.com/photo/white-concrete-buildin-3396883/)
 
-- Alexander Drummer - https://www.pexels.com/photo/photo-studio-with-white-wooden-framed-wall-mirror-134469/
+- Alexander Drummer - [Image](https://www.pexels.com/photo/photo-studio-with-white-wooden-framed-wall-mirror-134469/)
 
-- Wolfgang - https://www.pexels.com/photo/photo-of-people-watching-a-concert-2747449/
+- Wolfgang - [Image](https://www.pexels.com/photo/photo-of-people-watching-a-concert-2747449/)
 
 #### Latest Cards
-- Elijah O'Donnell - https://www.pexels.com/photo/androgynous-woman-leaning-foot-against-grey-wall-5098976/
+- Elijah O'Donnell - [Image](https://www.pexels.com/photo/androgynous-woman-leaning-foot-against-grey-wall-5098976/)
 
-- Wendy Wei - https://www.pexels.com/photo/musical-band-playing-music-on-stage-with-purple-and-white-lights-1864642/
+- Wendy Wei - [Image](https://www.pexels.com/photo/musical-band-playing-music-on-stage-with-purple-and-white-lights-1864642/)
 
-- Jayberrytech - https://www.pexels.com/photo/man-wearing-black-pants-3304802/
+- Jayberrytech - [Image](https://www.pexels.com/photo/man-wearing-black-pants-3304802/)
 
-- Yasmine qasem - https://www.pexels.com/photo/woman-standing-in-front-of-white-wall-2034435/
+- Yasmine qasem - [Image](https://www.pexels.com/photo/woman-standing-in-front-of-white-wall-2034435/)
 
-- Aldrich - https://www.pexels.com/photo/woman-in-red-and-white-floral-dress-standing-near-store-5464697/
+- Aldrich - [Image](https://www.pexels.com/photo/woman-in-red-and-white-floral-dress-standing-near-store-5464697/)
 
 #### Urban Gallery
-- Cottonbro - https://www.pexels.com/photo/man-in-white-long-sleeve-shirt-sitting-beside-woman-in-green-sweater-5037620/
-              https://www.pexels.com/photo/man-in-white-crew-neck-t-shirt-and-blue-denim-jeans-sitting-on-red-metal-bench-5037571/
-              https://www.pexels.com/photo/person-in-blue-denim-jeans-and-black-and-white-nike-sneakers-5037664/
+- Cottonbro - [Image1](https://www.pexels.com/photo/man-in-white-long-sleeve-shirt-sitting-beside-woman-in-green-sweater-5037620/)
+              [Image2](https://www.pexels.com/photo/man-in-white-crew-neck-t-shirt-and-blue-denim-jeans-sitting-on-red-metal-bench-5037571/)
+              [Image3](https://www.pexels.com/photo/person-in-blue-denim-jeans-and-black-and-white-nike-sneakers-5037664/)
 
-- RODNAE Productions - https://www.pexels.com/photo/fashion-man-people-woman-5898475/
-                       https://www.pexels.com/photo/woman-in-white-jacket-and-black-pants-sitting-on-concrete-floor-5898493/
+- RODNAE Productions - [Image1](https://www.pexels.com/photo/fashion-man-people-woman-5898475/)
+                       [Image2](https://www.pexels.com/photo/woman-in-white-jacket-and-black-pants-sitting-on-concrete-floor-5898493/)
 
 #### Studio Gallery
-- Andrea Piacquadio - https://www.pexels.com/photo/woman-in-knitted-shirt-is-screaming-3765144/
-                      https://www.pexels.com/photo/pensive-man-in-brown-coat-holding-his-chin-3785078/
+- Andrea Piacquadio - [Image1](https://www.pexels.com/photo/woman-in-knitted-shirt-is-screaming-3765144/)
+                      [Image2](https://www.pexels.com/photo/pensive-man-in-brown-coat-holding-his-chin-3785078/)
 
-- mikoto.raw - https://www.pexels.com/photo/photo-of-woman-holding-her-against-red-background-3328103/
+- mikoto.raw - [Image](https://www.pexels.com/photo/photo-of-woman-holding-her-against-red-background-3328103/)
 
-- Anna Shvets - https://www.pexels.com/photo/young-boy-in-jacket-holding-white-flower-pot-3771640/
-                https://www.pexels.com/photo/man-with-long-hair-standing-in-studio-during-photo-session-4971015/
+- Anna Shvets - [Image1](https://www.pexels.com/photo/young-boy-in-jacket-holding-white-flower-pot-3771640/)
+              - [Image2](https://www.pexels.com/photo/man-with-long-hair-standing-in-studio-during-photo-session-4971015/)
 
 #### Event Gallery
-- Giorgio Paradisi - https://www.pexels.com/photo/people-partying-close-up-photography-2705089/
+- Giorgio Paradisi - [Image](https://www.pexels.com/photo/people-partying-close-up-photography-2705089/)
 
-- Marc Schulte - https://www.pexels.com/photo/silhouette-photo-of-people-beside-monitor-2952834/
+- Marc Schulte - [Image](https://www.pexels.com/photo/silhouette-photo-of-people-beside-monitor-2952834/)
 
-- Thibault Trillet - https://www.pexels.com/photo/singer-singing-on-stage-beside-guitar-player-and-bass-player-167636/
+- Thibault Trillet - [Image](https://www.pexels.com/photo/singer-singing-on-stage-beside-guitar-player-and-bass-player-167636/)
 
-- Zachary DeBottis - https://www.pexels.com/photo/man-standing-while-singing-2067677/
+- Zachary DeBottis - [Image](https://www.pexels.com/photo/man-standing-while-singing-2067677/)
 
-- Mwabonje - https://www.pexels.com/photo/woman-singing-on-stage-1460037/
+- Mwabonje - [Image](https://www.pexels.com/photo/woman-singing-on-stage-1460037/)
 
+#### About & Enquire
 
+- Stefan Stefancik - [Image](https://www.pexels.com/photo/man-on-gray-shirt-portrait-91227/)
 
 
 
