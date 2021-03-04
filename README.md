@@ -1,5 +1,7 @@
 <h1 align="center">Freelance Photographers Website</h1>
 
+<img src="documentation/screenshots/responsive-screenshot.PNG">
+
 [View the live project here.](https://connorsargent.github.io/FreelancePhotographerWebsite/index.html)
 
 The primary goal of this project is to provide a clean and professional website for a freelance photographer, which showcases the photographers work in a categorized gallery and a blog with recent work and events, the website will also provide a clear and friendly contact form for anyone interested in a photo shoot and links to various social media platforms to bring more attention to the photographer.
@@ -121,8 +123,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a Returning Visitor, I want to find the photographers most recent work.
 
-        1. This are shown in either the recent page or gallery.
-        2. They will be directed to a page with another hero image and call to action.
+        1. This is shown in either the recent page or gallery.
+        2. The links can be located either on the nav bar or in the about section on the About & Enquire page.
+
+<img src="documentation/screenshots/screenshot-5.PNG">
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the Photographer with any questions I may have.
 
@@ -131,26 +135,35 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         3. The footer contains links to the organizations Facebook, Instagram, Pinterest and Youtube pages.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
+<img src="documentation/screenshots/screenshot-4.PNG">
+
     3. As a Returning Visitor, I want to be able to book photoshoots.
 
        1. The home page hero image had a call to action button to "book a shoot!".
-       2. The navigation bar clearly shows a About & Enquire page.    
+       2. The navigation bar clearly shows a About & Enquire page. 
+
+<img src="documentation/screenshots/screenshot-1.PNG">   
 
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added Gallery photos.
 
-        1. The user would already be comfortable with the website layout and can easily click the navigation bar link 
+        1. The user would already be comfortable with the website layout and can easily click the navigation bar link
+
+<img src="documentation/screenshots/screenshot-6.PNG">         
 
     2. As a Frequent User, I want to check to see if there are any new Recent work.
 
-        1. The user would already be comfortable with the website layout and can easily click the Recent link
+        1. The user would already be comfortable with the website layout and can easily click the Recent link.
+
+<img src="documentation/screenshots/screenshot-7.PNG">
 
     3. As a frequent user, I want to be able to book photoshoots.
 
        1. The home page hero image had a call to action button to "book a shoot!".
-       2. The navigation bar clearly shows a About & Enquire page.        
-    
+       2. The navigation bar clearly shows a About & Enquire page.
+
+<img src="documentation/screenshots/screenshot-1.PNG"> 
 
 ### Further Testing
 
