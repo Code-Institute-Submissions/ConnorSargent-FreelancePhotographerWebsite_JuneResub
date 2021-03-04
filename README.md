@@ -2,7 +2,7 @@
 
 [View the live project here.](https://connorsargent.github.io/FreelancePhotographerWebsite/index.html)
 
-The primary goal of this project is to provide a clean and professional website for a freelance photographer, which showcases the photographers work in a catagorised gallery and a blog with recent work and events, the website will also provide a clear and freindly contact form for anyone interseted in a photoshoot and links to various social media platforms to bring more attention to the photographer.
+The primary goal of this project is to provide a clean and professional website for a freelance photographer, which showcases the photographers work in a categorized gallery and a blog with recent work and events, the website will also provide a clear and friendly contact form for anyone interested in a photo shoot and links to various social media platforms to bring more attention to the photographer.
 
 ## User Experience (UX)
 
@@ -12,7 +12,7 @@ The primary goal of this project is to provide a clean and professional website 
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the photographer.
         3. As a First Time Visitor, I want to look for the photographers work to learn more about the photographers work. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-        3. As a First Time Visitor, I want to be able to easily navigate throughout the site to find contact information and booking photograpy shoots.
+        3. As a First Time Visitor, I want to be able to easily navigate throughout the site to find contact information and booking photography shoots.
 
     -   #### Returning Visitor Goals
 
@@ -35,9 +35,9 @@ The primary goal of this project is to provide a clean and professional website 
 
 *   ### Wireframes
 
-    -   Desktop/Tablet Wireframes - [View](https://github.com/ConnorSargent/FreelancePhotographerWebsite/blob/master/assets/wireframes/Desktop%20Wireframes.pdf)
+    -   Desktop/Tablet Wireframes - [View](https://github.com/ConnorSargent/FreelancePhotographerWebsite/blob/master/documentation/wireframes/Desktop%20Wireframes.pdf)
 
-    -   Mobile Wireframe - [View](https://github.com/ConnorSargent/FreelancePhotographerWebsite/blob/master/assets/wireframes/Mobile%20Wireframes.pdf)
+    -   Mobile Wireframe - [View](https://github.com/ConnorSargent/FreelancePhotographerWebsite/blob/master/documentation/wireframes/Mobile%20Wireframes.pdf)
 
  - * Changes to desktop wireframes:
  - * Navbar aligned to the right and navbar contact button is now a nav link, changed for aesthetic purposes.
@@ -82,8 +82,11 @@ The primary goal of this project is to provide a clean and professional website 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) 
+<img src="documentation/tests/html-test.PNG">
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+<img src="documentation/tests/css-test.PNG">
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -92,7 +95,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Photographer and potentially book a photoshoot.
 
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Book a shoot!" Call to action button.
-        2. The user has two options, click the call to action button which will allow the user to learn more about the photogrpher and book a photoshoot or scroll down which will allow the user to learn more about photoshoots with links to the respective gallery.
+
+<img src="documentation/screenshots/screenshot-1.PNG">
+
+        2. The user has two options, click the call to action button which will allow the user to learn more about the photogrpher and book a photoshoot or scroll down which will allow the user to learn more about photoshoots with links to about & enquire and the respective galleries.
+
+<img src="documentation/screenshots/screenshot-2.PNG">
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
@@ -101,8 +109,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a First Time Visitor, I want to look for the photographers recent work to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
         1. When the user opens the Recent page they will be presented with social media links at the top of the page which is then followed by the photographers most recent work in date order.
+
+<img src="documentation/screenshots/screenshot-3.PNG">
+
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+        3. At the bottom of the About & Enquire page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+
+<img src="documentation/screenshots/screenshot-4.PNG">        
 
 -   #### Returning Visitor Goals
 
@@ -114,8 +127,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     2. As a Returning Visitor, I want to find the best way to get in contact with the Photographer with any questions I may have.
 
         1. The navigation bar clearly highlights the "About & Enquire" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Instagram, Pinterest and Youtube pages.
+        2. Here they can fill out the form on the page or are told that alternatively they can message the organization on social media.
+        3. The footer contains links to the organizations Facebook, Instagram, Pinterest and Youtube pages.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
     3. As a Returning Visitor, I want to be able to book photoshoots.
@@ -254,7 +267,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 - mikoto.raw - [Image](https://www.pexels.com/photo/photo-of-woman-holding-her-against-red-background-3328103/)
 
 - Anna Shvets - [Image1](https://www.pexels.com/photo/young-boy-in-jacket-holding-white-flower-pot-3771640/)
-              - [Image2](https://www.pexels.com/photo/man-with-long-hair-standing-in-studio-during-photo-session-4971015/)
+                [Image2](https://www.pexels.com/photo/man-with-long-hair-standing-in-studio-during-photo-session-4971015/)
 
 #### Event Gallery
 - Giorgio Paradisi - [Image](https://www.pexels.com/photo/people-partying-close-up-photography-2705089/)
