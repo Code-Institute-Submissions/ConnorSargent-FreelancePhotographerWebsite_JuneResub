@@ -90,6 +90,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 <img src="documentation/tests/css-test.PNG">
 
+- Lighthouse testing desktop/mobile
+   * lighthouse test for all pages except the Gallery came to the results shown below:
+
+<img src="documentation/tests/lighthouse-test-screenshot.PNG">
+
+   * Lighthouse testing on the gallery page came to the results shown below, which initially were a lot lower. I raised the performance by using tiny png to make the img sizes smaller and I also used lazy loading.
+
+<img src="documentation/tests/lighthouse-gallery-screenshot.PNG">
+
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
