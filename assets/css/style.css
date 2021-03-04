@@ -355,7 +355,8 @@ footer {
     height: 175px;
     width: 175px;
     border-radius: 50%;
-    text-align: center;
+    margin: auto;
+    display: block;
 
     object-fit: cover;
     object-position: center;
