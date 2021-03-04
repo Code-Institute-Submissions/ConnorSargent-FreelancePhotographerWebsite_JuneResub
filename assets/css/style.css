@@ -479,6 +479,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    
     .navbar {
         background-color: rgba(0, 0, 0, 0.5);
     }
@@ -523,6 +524,10 @@ footer {
 
     .gallery-container h2 {
         font-size: 30px;
+    }
+
+    .gallery-container img {
+        height: 500px;
     }
 
     .about-container h1 {

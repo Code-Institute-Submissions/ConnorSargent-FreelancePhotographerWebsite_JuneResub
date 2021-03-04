@@ -39,14 +39,14 @@ The primary goal of this project is to provide a clean and professional website 
 
     -   Mobile Wireframe - [View](https://github.com/ConnorSargent/FreelancePhotographerWebsite/blob/master/documentation/wireframes/Mobile%20Wireframes.pdf)
 
- - * Changes to desktop wireframes:
- - * Navbar aligned to the right and navbar contact button is now a nav link, changed for aesthetic purposes.
- - * Footer logo removed as navbar is now fixed and social links and copyright text on oposite sides of footer, changed for aestetic purposes. 
- - * Event page cards layout changed so smaller events have smaller cards whilst bigger more important events have a full page width card.
+ - Changes to desktop wireframes:
+     * Navbar aligned to the right and navbar contact button is now a nav link, changed for aesthetic purposes.
+     * Footer logo removed as navbar is now fixed and social links and copyright text on oposite sides of footer, changed for aestetic purposes. 
+     * Event page cards layout changed so smaller events have smaller cards whilst bigger more important events have a full page width card.
 
 - Changes to mobile wireframes:
-- * Nav bar is now located and fixed to the top of the page with a hamburger menu, changed for aestetic purposes. 
-- * Gallery images are now shown as one img per row, as two images were too small for smaller devices.
+     * Nav bar is now located and fixed to the top of the page with a hamburger menu, changed for aestetic purposes. 
+    * Gallery images are now shown as one img per row, as two images were too small for smaller devices.
 
 ## Features
 
