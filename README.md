@@ -28,7 +28,7 @@ The primary goal of this project is to provide a clean and professional website 
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The main colors used are black and shades of blue to convey a professional aesthetic.
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
         -   The Spartan font is the font used for headings throughout the website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. 
@@ -43,11 +43,11 @@ The primary goal of this project is to provide a clean and professional website 
 
  - Changes to desktop wireframes:
      * Navbar aligned to the right and navbar contact button is now a nav link, changed for aesthetic purposes.
-     * Footer logo removed as navbar is now fixed and social links and copyright text on oposite sides of footer, changed for aestetic purposes. 
+     * Footer logo removed as navbar is now fixed and social links and copyright text on oposite sides of footer, changed for aesthetic purposes. 
      * Event page cards layout changed so smaller events have smaller cards whilst bigger more important events have a full page width card.
 
 - Changes to mobile wireframes:
-     * Nav bar is now located and fixed to the top of the page with a hamburger menu, changed for aestetic purposes. 
+     * Nav bar is now located and fixed to the top of the page with a hamburger menu, changed for aesthetic purposes. 
     * Gallery images are now shown as one img per row, as two images were too small for smaller devices.
 
 ## Features
@@ -109,7 +109,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <img src="documentation/screenshots/screenshot-1.PNG">
 
-        2. The user has two options, click the call to action button which will allow the user to learn more about the photogrpher and book a photoshoot or scroll down which will allow the user to learn more about photoshoots with links to about & enquire and the respective galleries.
+        2. The user has two options, click the call to action button which will allow the user to learn more about the photographer and book a photoshoot or scroll down which will allow the user to learn more about photoshoots with links to about & enquire and the respective galleries.
 
 <img src="documentation/screenshots/screenshot-2.PNG">
 
@@ -217,13 +217,12 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
+$ git clone https://github.com/ConnorSargent/FreelancePhotographerWebsite
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/ConnorSargent/FreelancePhotographerWebsite
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
